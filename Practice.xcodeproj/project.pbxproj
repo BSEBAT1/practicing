@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5268AE6B1DCCEBFA00EBF6D1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5268AE6A1DCCEBFA00EBF6D1 /* MainViewController.m */; };
 		52F920CE1DCBFB5C00088737 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F920CD1DCBFB5C00088737 /* main.m */; };
 		52F920D11DCBFB5C00088737 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F920D01DCBFB5C00088737 /* AppDelegate.m */; };
 		52F920D41DCBFB5C00088737 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F920D31DCBFB5C00088737 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5268AE691DCCEBFA00EBF6D1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5268AE6A1DCCEBFA00EBF6D1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		52F920C91DCBFB5C00088737 /* Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F920CD1DCBFB5C00088737 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52F920CF1DCBFB5C00088737 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,6 +49,8 @@
 			isa = PBXGroup;
 			children = (
 				52F920E61DCC191100088737 /* PassbackController.h */,
+				5268AE691DCCEBFA00EBF6D1 /* MainViewController.h */,
+				5268AE6A1DCCEBFA00EBF6D1 /* MainViewController.m */,
 				52F920E71DCC191100088737 /* PassbackController.m */,
 				52F920CB1DCBFB5C00088737 /* Practice */,
 				52F920CA1DCBFB5C00088737 /* Products */,
@@ -159,6 +164,7 @@
 				52F920D41DCBFB5C00088737 /* ViewController.m in Sources */,
 				52F920D11DCBFB5C00088737 /* AppDelegate.m in Sources */,
 				52F920CE1DCBFB5C00088737 /* main.m in Sources */,
+				5268AE6B1DCCEBFA00EBF6D1 /* MainViewController.m in Sources */,
 				52F920E81DCC191100088737 /* PassbackController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +322,7 @@
 				52F920E21DCBFB5C00088737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
