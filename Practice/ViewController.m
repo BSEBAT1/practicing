@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 
 @end
@@ -16,9 +17,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateui:) name:@"passed" object:nil];
+    PassbackController *shamus=[[PassbackController alloc]init];
+    [shamus dothis];
+    self.view.backgroundColor=[UIColor greenColor];
+    
+    
+    
 }
-
+-(void)updateui:(NSNotification *)chinga{
+    NSLog(@"update the ui with this shit");
+    NSArray *new=chinga.object;
+    NSLog(@"the count is %lu",(unsigned long)new.count);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

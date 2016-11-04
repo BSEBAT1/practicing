@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PassbackController.h
 //  Practice
 //
 //  Created by macbook pro on 11/3/16.
@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PassbackController.h"
 
-@interface ViewController : UIViewController
-
+@interface PassbackController : UIViewController
+-(void)dothis;
+@property NSMutableArray *numbahs;
 
 
 @end
-
